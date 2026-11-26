@@ -1,0 +1,52 @@
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# env files. Keys never go in git; see .env.example
+.env
+.env*.local
+supabase/.env
+supabase/functions/.env
+
+# Supabase local state
+supabase/.branches
+supabase/.temp
+
+# typescript
+*.tsbuildinfo
+
+# generated native folders
+/ios
+/android
+
+# editors
+.idea/
+
+# test output
+coverage/
